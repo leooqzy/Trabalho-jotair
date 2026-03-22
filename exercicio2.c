@@ -19,7 +19,7 @@ void preenchePessoa(Pessoa *p) {
 }
 
 void exibePessoa(Pessoa p) {
-    printf("\n--- Pessoa ---\n");
+    printf("\nPessoa\n");
     printf("Nome: %s\n", p.nome);
     printf("Idade: %d\n", p.idade);
     printf("Endereco: %s\n", p.endereco);
@@ -33,7 +33,7 @@ int main() {
         preenchePessoa(&pessoas[i]);
     }
 
-    printf("\n=== Lista de Pessoas ===\n");
+    printf("\nLista de Pessoas\n");
     for (int i = 0; i < 5; i++) {
         exibePessoa(pessoas[i]);
     }
